@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TFC Flight ticket booking</title>
+  <link rel="shortcut icon" href="./img/plane-3.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bbd">
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-light py-0">
+    <div class="container  m-auto">
+
+      <button class="navbar-toggler p-0 border-st" type="button">
+        <ion-icon name="menu-outline" class="menu"></ion-icon>
+      </button>
+      <a class="navbar-brand mx-lg-0 mx-md-0 mx-auto logo" href="#"><img src="./img/logo.png" class="img-fluid w-100"
+          alt=""></a>
+      <div class="collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link nv-cl" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nv-cl" href="#">Flights</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nv-cl" href="#">Hotels</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nv-cl" href="#">Guides</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nv-cl" href="#">Pages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nv-cl" href="#">Contact</a>
+          </li>
+        </ul>
+
+
+      </div>
+      <div class="bfx">
+        <div class="crl notification">
+          <ion-icon name="notifications-outline"></ion-icon>
+        </div>
+        <div class="crl2 prf ml-5 profile">
+          <img src="./img/programing.png" class="img-fluid w-100 " alt="">
+        </div>
+      </div>
+
+      <div class="profile-box  card-toggle">
+        <ul class="list-unstyled">
+          <li class="nav-item tglr profile">
+            <div class="img-box">
+              <img src="./img/programing.png" class="img-fluid" alt="">
+            </div>
+            <h5 class="text-center mt-2 txx">Md Nahid</h5>
+          </li>
+          <li class="nav-item blg ng profile d-flex justify-content-center">
+            <a href="#" class="text-decoration-none nav-link  ccl2">Profile</a>
+          </li>
+          <hr class="mt-2">
+          <li class="nav-item tglr">
+            <a href="#" class=" text-decoration-none nav-link ccl">Setting</a>
+          </li>
+          <li class="nav-item tglr profile">
+            <a href="#" class=" text-decoration-none nav-link ccl">Sign Out</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- notification -->
+  <div class="notification-box p-3">
+    <h5 class="text-dark font-weight-bold">Notification</h5>
+    <hr class="lines">
+    <div class="row  bx mt-2">
+      <div class="col-3 col-lg-3 col-md-3 d-flex justify-content-center p-1">
+        <div class="fligh-thum ">
+          <img src="./img/plane-9922.png" class="img-fluid" alt="">
+        </div>
+      </div>
+      <div class="col-9 col-lg-9 col-md-9  text-black">
+        <div class="text-box">
+          <small class="font-weight-bold">TFC Flight</small><br>
+          <small class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis.</small>
+        </div>
+      </div>
+    </div>
+    <div class="row bx mt-2">
+      <div class="col-3 col-lg-3 col-md-3 d-flex justify-content-center p-1">
+        <div class="fligh-thum p-0">
+          <img src="./img/plane-1.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-9 col-lg-9 col-md-9  text-black">
+        <div class="text-box">
+          <small class="font-weight-bold">Bangladesh Flight</small><br>
+          <small class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis.</small>
+        </div>
+      </div>
+    </div>
+    <div class="row bx mt-2 m-auto">
+      <div class="col-3 col-lg-3 col-md-3 d-flex justify-content-center p-1">
+        <div class="fligh-thum ">
+          <img src="./img/plane-2.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+      <div class="col-9 col-lg-9 col-md-9  text-black">
+        <div class="text-box">
+          <small class="font-weight-bold">Arab Flight</small><br>
+          <small class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis.</small>
+        </div>
+      </div>
+    </div>
+    <div class="row d-flex bx mt-2">
+      <div class="col-3 col-lg-3 col-md-3 d-flex justify-content-center p-1">
+        <div class="fligh-thum ">
+          <img src="./img/plane-3.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+      <div class="col-9 col-lg-9 col-md-9  text-black">
+        <div class="text-box">
+          <small class="font-weight-bold">Singapur Flight</small><br>
+          <small class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis.</small>
+        </div>
+      </div>
+    </div>
+    <div class="row bx mt-2">
+      <div class="col-3 col-lg-3 col-md-3 d-flex justify-content-center p-1">
+        <div class="fligh-thum ">
+          <img src="./img/plane-4.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+      <div class="col-9 col-lg-9 col-md-9  text-black">
+        <div class="text-box">
+          <small class="font-weight-bold">Afganistan Flight</small><br>
+          <small class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis.</small>
+        </div>
+      </div>
+    </div>
+    <div class="row bx mt-2">
+      <div class="col-3 col-lg-3 col-md-3 d-flex justify-content-center p-1">
+        <div class="fligh-thum ">
+          <img src="./img/plane-5.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+      <div class="col-9 col-lg-9 col-md-9  text-black">
+        <div class="text-box">
+          <small class="font-weight-bold">Palistan Flight</small><br>
+          <small class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis.</small>
+        </div>
+      </div>
+    </div>
+    <div class="row bx mt-2">
+      <div class="col-3 col-lg-3 col-md-3 d-flex justify-content-center p-1">
+        <div class="fligh-thum ">
+          <img src="./img/plane-6.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+      <div class="col-9 col-lg-9 col-md-9  text-black">
+        <div class="text-box">
+          <small class="font-weight-bold">Pakistan Flight</small><br>
+          <small class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis.</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="overflow"></div>
+  <div class="sidebar">
+    <div class="container">
+      <ul class="list-unstyled px-0">
+        <li class="side-items mt-3">
+          <a href="#" class="side-link  d-flex align-items-center w-100">
+            <span>
+              <ion-icon class="icon-s" name="home-outline"></ion-icon>
+            </span><span class="px-2 txs"> Home</span>
+          </a>
+        </li>
+        <li class="side-items mt-3">
+          <a href="#" class="side-link  d-flex align-items-center w-100">
+            <span>
+              <ion-icon name="airplane-outline" class="icon-s"></ion-icon>
+            </span><span class="px-2 txs"> Flights</span>
+          </a>
+        </li>
+        <li class="side-items mt-3">
+          <a href="#" class="side-link  d-flex align-items-center w-100">
+            <span>
+              <ion-icon class="icon-s" name="business-outline"></ion-icon>
+            </span><span class="px-2 txs"> Hotels</span>
+          </a>
+        </li>
+        <li class="side-items mt-3">
+          <a href="#" class="side-link  d-flex align-items-center w-100">
+            <span>
+              <ion-icon class="icon-s" name="newspaper-outline"></ion-icon>
+            </span><span class="px-2 txs">Guides</span>
+          </a>
+        </li>
+        <li class="side-items mt-3">
+          <a href="#" class="side-link  d-flex align-items-center w-100">
+            <span>
+              <ion-icon class="icon-s" name="laptop-outline"></ion-icon>
+            </span><span class="px-2 txs"> Pages</span>
+          </a>
+        </li>
+        <li class="side-items mt-3 d-flexa align-items-center">
+          <a href="#" class="side-link p-0 d-flex align-items-center w-100">
+            <span class="p-0 d-flex align-items-center">
+              <ion-icon class="icon-s" name="person-outline"></ion-icon>
+            </span><span class="px-2 txs"> Contact</span>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+
+  <main>
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-12">
+
+      </div>
+    </div>
+  </main>
+  <!-- main content -->
+  <div class="box ">
+    <div class="container mx-auto py-5">
+      <div class="row rw ">
+        <div class="col-lg-7 col-md-5 col-12  cl  d-flex justify-content-center align-items-center cl-1">
+          <div class="BB py-5">
+            <h1 class="ttx t text-lg-left text-md- "> TFC FLIGHT </h1>
+            <h1 class="ttx t-2 text-lg-left text-md- "> AROUND THE WORLD </h1><br>
+            <button class="btn demo-btn d-flex align-items-center mt-3" data-toggle="modal" data-target="#exampleModal">
+              <div class="in-box play-btn d-flex align-items-center justify-content-center">
+                <ion-icon name="play-outline" class="ml-1"></ion-icon>
+              </div><span class="px-3 ml-auto">Demo</span>
+            </button>
+
+
+
+
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-7 col-12 px-0 py-0 cl-2">
+          <div class="form">
+            <h3 class="font-weight-bold frm-title">Booking Flights</h3><br>
+            <label for="" class="">Flying From</label>
+            <input type="text" class="w-100 form-control" placeholder="Dhaka, Bangladesh" id="form"
+              onchange="myFunction()">
+
+            <label for="" class="mt-2">Flying To</label>
+            <input type="text" id="form2" onchange="myFunction2()" class="w-100 form-control"
+              placeholder="New York, United States">
+            <div class="form-row">
+              <div class="col-lg-6 col-md-6 col-12 mt-2">
+                <label for="" class="mt-2">Departure</label>
+                <input type="date" class="form-control input-group-lg" placeholder="">
+              </div>
+              <div class="col-lg-6 col-md-6 col-12 mt-2">
+                <label for="" class="mt-2">Return</label>
+                <input type="date" class="form-control input-group-lg" placeholder="Last name">
+              </div>
+            </div>
+
+
+            <label for="" class="mt-2">First Class ($150)</label>
+            <div class="form-row">
+              <div class="col-lg-9 col-md-8 col-8 mt-2">
+                <input type="number" value="0" id="ticketCountAdd" class="form-control input-group-lg" placeholder="">
+              </div>
+              <div class="col-lg-3 col-md-4 col-4 mt-2 d-flex justify-content-end">
+                <div class="btn-group" role="group" aria-label="First group">
+                  <button type="button" id="ticketRemove" class="btn btn-bg">
+                    <ion-icon name="remove-outline"></ion-icon>
+                  </button>
+                  <button id="ticketAdd" type="button" class="btn btn-bg ml-2">
+                    <ion-icon name="add-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <label for="" class="mt-2">Economy ($100)</label>
+            <div class="form-row">
+              <div class="col-lg-9 col-md-8 col-8 mt-2">
+                <input type="number" id="ticketCountAdd2" value="0" class="form-control input-group-lg" placeholder="">
+              </div>
+              <div class="col-lg-3 col-md-4 col-4 mt-2 d-flex justify-content-end">
+                <div class="btn-group" role="group" aria-label="First group">
+                  <div class="btn-group" role="group" aria-label="First group">
+
+                    <button type="button" class="btn btn-bg" id="removeCount">
+                      <ion-icon name="remove-outline"></ion-icon>
+                    </button>
+
+                    <button type="button" class="btn btn-bg ml-2" id="addCount2">
+                      <ion-icon name="add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="calculation mt-3 w-100">
+                <ul class="list-unstyled">
+                  <li class="d-flex font-weight-bold clt py-2">
+                    <span>Subtotal</span><span class="ml-auto" id="tpTicket">$000</span>
+                  </li>
+                  <li class="d-flex font-weight-bold clt py-2 border-bottom border-dark">
+                    <span>Tax</span><span class="ml-auto" id="vat">$0</span>
+                  </li>
+                  <li class="d-flex font-weight-bold clt py-2">
+                    <span>Total</span><span class="ml-auto" id="total">$000</span>
+                  </li>
+                </ul>
+                <button class="btn btn-lg subtn w-100" id="submit">Check Now</button>
+              </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="popup container px-0 overflow-hidden" id="popId">
+          <div class="popup-header p-2">
+            <h3 class="font-weight-bold text-white">TFC Flight</h3>
+            <small class="text-light">Online Ticket Booking. </small>
+          </div>
+          <div class="container">
+
+            <div class="popup-body pt-2 ">
+              <div class="row  d-lg-flex d-md-flex d-block">
+                <div class="col-lg-6 col-md-6 col-12 w-100">
+                  <div class="row rws d-flex justify-content-lg-start justify-content-md-start justify-content-center">
+                    <div
+                      class="col-lg-4 col-md-4 col-12 d-flex justify-content-lg-start justify-content-md-start justify-content-center  p-0">
+                      <div class="bbbs text-lg-left text-md-left text-center">
+                        <h6 class="text-center">From :</h6>
+                        <h5 id="txt">Bangladesh</h5>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 d-flex   justify-content-center overflow-hidden bnm">
+                      <div class="bbbs d-flex justify-content-center text-lg-left text-md-left text-center ">
+                        <ion-icon class="fns" name="airplane-outline"></ion-icon>
+                      </div>
+                    </div>
+                    <div
+                      class="col-lg-4 col-md-4 col-12 d-flex justify-content-lg-start justify-content-md-start justify-content-center p-1">
+                      <div class="bbbs text-lg-left text-md-left text-center">
+                        <h6 class="text-center">To :</h6>
+                        <h5 id="txt2">Pakestan</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="m-box d-flex py-2">
+                    <div class="bx-1 mx-0 mx-lg-5 mx-md-3 px-2">
+                      <h5 class="d-flex">$ <span id="total">500</span></h5>
+                      <small class="ml-2">Price</small>
+                    </div>
+                    <div class="bx-2 mx-0 mx-lg-5 mx-md-3 px-2">
+                      <h5>First Class </h5>
+                      <small class="ml-2">Class</small>
+                    </div>
+                    <div class="bx-3 mx-0 mx-lg-5 mx-md-3 px-2 w">
+                      <img src="./img/md_nahid (1) (1).png" class="img-fluid" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 w-100 ">
+                  <div class="row rwo mt-3">
+                    <div class="col-lg-4 col-md-4 col-4">
+                      <div class="tx-box">
+                        <h6 class="txx">8:20 - 9:45</h6>
+                        <small class="text-muted">Fligh Time</small>
+                        <h6 class="txx">No</h6>
+                        <small class="text-muted">Transfer</small>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-4">
+                      <div class="tx-box">
+                        <h6 class="txx">2h 25 min</h6>
+                        <small class="text-muted">Duration</small>
+                        <h6 class="txx">8</h6>
+                        <small class="text-muted">Gate</small>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-4">
+                      <div class="tx-box">
+                        <h6 class="txx">6:30</h6>
+                        <small class="text-muted">Boarding </small>
+                        <h6 class="txx">2A</h6>
+                        <small class="text-muted">Seat</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                 <a href="" class="btn btn-ok mt-2" id="okBtn">Ok</a><br>
+              </div>
+            </div>   
+             
+          </div>
+     
+        </div>
+
+      </div>
+      <div class="overlay2" id="overlay2">
+
+      </div>
+      <!-- Modal -->
+      <div class="modal fade  py-0" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog px-0 py-0" role="document">
+          <div class="modal-content px-0 py-0">
+
+            <div class="modal-body mt-4 bg-white px-0 py-0">
+              <button type="button" class="close cls-btn" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <iframe width="100%" height="310" src="https://www.youtube.com/embed/xnMVYaHsCvY"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+          crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+          integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+          crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+          integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+          crossorigin="anonymous"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <script src="./index.js"></script>
+</body>
+
+</html>

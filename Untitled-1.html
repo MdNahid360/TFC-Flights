@@ -1,0 +1,110 @@
+<div class="container d-flex justify-content-center align-items-center w-100 h-100">
+    <div class="card m-auto mt-5">
+        <div class="card-body">
+                <div class="row mt-2">
+                        <div class="col-9">
+                            <input type="text"  id="proTicket-input" value="0" class="form-control mt-2" id="">
+                        </div>
+                        <div class="col-3 d-flex align-items-center">
+                        <button  onclick="handleTicketUpdate('proTicket',true)" class="d-flex align-items-center icon-box bx-1bg-danger">
+                            <ion-icon name="add-outline" class="f-icon"></ion-icon>
+                        </button>
+                        <button onclick="handleTicketUpdate('proTicket',false)" class="d-flex align-items-center icon-box bx-2  bg-danger">
+                            <ion-icon name="remove-outline"></ion-icon>
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="row mt-2">
+                        <div class="col-9">
+                            <input type="text" id="betaTicket-input" value="0" class="form-control mt-2" id="">
+                        </div>
+                        <div class="col-3 d-flex align-items-center">
+                        <button onclick="handleTicketUpdate('betaTicket',true)" class="d-flex align-items-center icon-box bx-1bg-danger">
+                            <ion-icon name="add-outline" class="f-icon"></ion-icon>
+                        </button>
+                        <button onclick="handleTicketUpdate('betaTicket',false)" class="d-flex align-items-center icon-box bx-2  bg-danger">
+                            <ion-icon name="remove-outline"></ion-icon>
+                        </button>
+                    </div>
+                </div>
+                <div class="d-flex mt-5">
+                    <h6>Subtotal : </h6>
+                    <h6 class="n">$ <span id="subTotal">000</span></h6>
+                </div>
+                <div class="d-flex">
+                    <h6>Charge 10% VAT :</h6>
+                    <h6 class="n">$ <span id="vat">0</span></h6>
+                </div>
+                <hr>
+                <div class="d-flex">
+                    <h6>Total :</h6>
+                    <h6 class="n">$ <span id="total">550</span></h6>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<form class="">
+    <h3 class="font-weight-bold">Booking Flights</h3><br>
+    <label for="" class="">Flying From</label>
+    <input type="text" class="w-100 form-control" placeholder="Dhaka, Bangladesh">
+
+    <label for="" class="mt-2">Flying To</label>
+    <input type="text" class="w-100 form-control" placeholder="New York, United States">
+    <div class="form-row">
+      <div class="col-lg-6 col-md-6 col-12 mt-2">
+        <label for="" class="mt-2">Departure</label>
+        <input type="date" class="form-control input-group-lg" placeholder="">
+      </div>
+      <div class="col-lg-6 col-md-6 col-12 mt-2">
+        <label for="" class="mt-2">Departure</label>
+        <input type="date" class="form-control input-group-lg" placeholder="Last name">
+      </div>
+    </div>
+    <label for="" class="mt-2 py-0">First Class ($550)</label>
+    <div class="form-row p-0">
+      <div class="col-lg-8 col-md-8 py-0 col-8 mt-2 py-0">
+        <input type="number" class="form-control input-group-lg" placeholder="">
+      </div>
+      <div class="col-lg-4 col-md-4 col-4 mt-2">
+        <input type="number" class="form-control input-group-lg" placeholder="Last name">
+      </div>
+    </div>
+
+    <label for="" class="mt-2">Economy ($100)</label>
+    <div class="form-row">
+      <div class="col-lg-8 col-md-8 col-8 mt-2">
+        <input type="number" class="form-control input-group-lg" placeholder="">
+      </div>
+      <div class="col-lg-4 col-md-4 col-4 mt-2">
+        <input type="number" class="form-control input-group-lg" placeholder="Last name">
+      </div>
+    </div>
+    <div class="calculation mt-3">
+      <ul class="list-unstyled">
+        <li class="d-flex font-weight-bold clt py-2">
+          <span>Subtotal</span><span class="ml-auto">$550</span>
+        </li>
+        <li class="d-flex font-weight-bold clt py-2 border-bottom border-dark">
+          <span>Subtotal</span><span class="ml-auto">$550</span>
+        </li>
+        <li class="d-flex font-weight-bold clt py-2">
+          <span>Subtotal</span><span class="ml-auto">$550</span>
+        </li>
+      </ul>
+      <button class="btn btn-lg btn-success w-100">Buy Now</button>
+    </div>
+  </form>
